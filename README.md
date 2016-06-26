@@ -1,7 +1,13 @@
 # BinaryKeyboard
 1 and 0 are the only keys a true programmer needs
 
-[In action](https://youtu.be/qHAFpK-0hug)
+![The keyboard](https://i.imgur.com/pCbeucK.jpg)
+
+[Youtube](https://youtu.be/qHAFpK-0hug)
+
+[Gifycat](https://gfycat.com/SophisticatedWeepyButterfly)
+
+[Imgur](http://imgur.com/a/icKnR)
 
 In a fit of inspiration, I threw this together in an evening. It is a small keyboard with three keys: `0`, `1`, and `enter/submit`.
 
