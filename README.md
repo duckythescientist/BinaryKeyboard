@@ -1,6 +1,7 @@
 # BinaryKeyboard
 1 and 0 are the only keys a true programmer needs
 
+[In action](https://youtu.be/qHAFpK-0hug)
 
 In a fit of inspiration, I threw this together in an evening. It is a small keyboard with three keys: `0`, `1`, and `enter/submit`.
 
