@@ -19,9 +19,22 @@ The `0` key types a "0". The `1` key types a "1". The `enter/submit` key types t
 ### Mode 1
 This is the true binay mode. To type an ASCII letter, press a combination of 8 `0`s and `1`s (MSB first) then press `enter/submit`. If you press `enter/submit` with greater or fewer than 8 bits, this clears all of the bits. This allows you to clear screwups without having an letters actually typed. 
 
+### NEW: Unicode Hybrid Mode (1)
+As a modification to "Mode 1", you can now enter Unicode characters!!! Instead of just typing 8 bits, type anywhere from 3 to 8 nibbles before pressing `enter/submit`. Typing exactly 8 bits will fallback to the standard Mode 1.
+
+For Linux, the keyboard uses a modification of the CTRL+SHIFT+U method. It has been tested with Debian Jessie (Xfce) and partially tested with Ubuntu 14.04 (Unity).
+
+For Windows, the keyboard uses the ALT+NUMPAD_PLUS hexadecimal method. This requires a registry edit. To `HKEY_CURRENT_USER\Control Panel\Input Method` add a string (`REG_SZ`) called `EnableHexNumpad` with the value `1` then reboot. Unfortunately, Windows doesn't seem to like anything more than 4 nibbles with this method. There are other methods, but this is the most universal for Windows. I'm very open to suggestions for ways to fix this. 
+
+
 
 ## Mode Selection:
-When plugging in the USB cable, the keyboard will startup and default to Mode 0 and QWERTY. To switch to Mode 1, hold the `0` key when plugging in the keyboard. To switch to Dvorak, hold `1` when plugging in the keyboard. Key(s) must be held for around 7 seconds (dependent mostly on AUTO_EXIT_MS defined in the Micronucleus bootloader). 
+When plugging in the USB cable, the keyboard will startup and default to Mode 0, QWERTY, Linux. 
+* To switch to Mode 1, hold the `0` key when plugging in the keyboard. 
+* To switch to Dvorak, hold `1` when plugging in the keyboard. 
+* To switch to Windows Unicode mode, hold the `enter/submit` key when plugging in the keyboard. 
+
+Key(s) must be held for around 7 seconds (dependent mostly on AUTO_EXIT_MS defined in the Micronucleus bootloader). 
 
 ## Construction
 The body of the keyboard is 3D printed. Mine was done with a Monoprice Select Mini, but it's a small and forgiving design, so just about any printer should work.
