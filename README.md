@@ -27,7 +27,9 @@ This is the true binay mode. To type an ASCII letter, press a combination of 8 `
 ### NEW: Unicode Hybrid Mode (1)
 As a modification to "Mode 1", you can now enter Unicode characters!!! Instead of just typing 8 bits, type anywhere from 3 to 8 nibbles before pressing `enter/submit`. Typing exactly 8 bits will fallback to the standard Mode 1.
 
-![Unicode Support](https://i.imgur.com/321nCg8.gifv)
+![Unicode Support](https://i.imgur.com/tYvccpK.png)
+
+[Gifv](https://i.imgur.com/321nCg8.gifv)
 
 For Linux, the keyboard uses a modification of the CTRL+SHIFT+U method. It has been tested with Debian Jessie (Xfce) and partially tested with Ubuntu 14.04 (Unity).
 
