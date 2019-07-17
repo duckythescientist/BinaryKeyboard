@@ -22,7 +22,7 @@ Unicode support happened a separate day.
 The `0` key types a "0". The `1` key types a "1". The `enter/submit` key types the enter key.
 
 ### Mode 1
-This is the true binay mode. To type an ASCII letter, press a combination of 8 `0`s and `1`s (MSB first) then press `enter/submit`. If you press `enter/submit` with greater or fewer than 8 bits, this clears all of the bits. This allows you to clear screwups without having an letters actually typed. 
+This is the true binary mode. To type an ASCII letter, press a combination of 8 `0`s and `1`s (MSB first) then press `enter/submit`. If you press `enter/submit` with greater or fewer than 8 bits, this clears all of the bits. This allows you to clear screwups without having any letters actually typed. 
 
 ### NEW: Unicode Hybrid Mode (1)
 As a modification to "Mode 1", you can now enter Unicode characters!!! Instead of just typing 8 bits, type anywhere from 3 to 8 nibbles before pressing `enter/submit`. Typing exactly 8 bits will fallback to the standard Mode 1.
