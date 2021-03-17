@@ -61,3 +61,18 @@ Place the keyswitches in the top panel, solder the switches to the tinyDev, plac
 The attiny85 on the tinyDev comes blank from the factory, so an ICSP such as the USB-ASP is needed to initially program it with the bootloader. A SOIC test clip helps immensely. The bootloader can be found [here](https://github.com/micronucleus/micronucleus). You may need/want to use the one that ships with the Digispark Arduino installation. 
 
 Install the [Digispark boardstuffs](https://digistump.com/wiki/digispark/tutorials/connecting) to Arduino.
+
+## BOM
+Resistors and capacitors are generic 0805
+
+2x 68ohm
+
+1x 1.5kohm
+
+1x 100nF
+
+The two diodes are 3.6V zeners in a SOD-323F package. I used MM3Z3V6CCT-ND
+
+The attiny is ATTINY85-20SURCT-ND
+
+USB connector is Amphenol 10118194-0001LF (609-4618-1-ND on Digikey)
